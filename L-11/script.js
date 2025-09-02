@@ -5,8 +5,8 @@
 
 {
   let str = "This is Javascript String Method."
-         //  012345678901234567890123456789012
-         //  123456789012345678901234567890123
+  //  012345678901234567890123456789012
+  //  123456789012345678901234567890123
 
   let atmethod = str.at(0)
   let atmethod1 = str.at(20)
@@ -48,64 +48,45 @@
 }
 
 
-// concat(str1)
-// concat(str1, str2)
-// concat(str1, str2, /* …, */ strN)
-
-// {
-//   let str1 = "Hello"
-//   let str2 = "World"
-//   let str3 = "!"
-
-//   let str = str1.concat(str2 , str3)
-
-//   console.log(str);
-// }
 
 
-// includes(searchString)
-// includes(searchString, position)
+{
+  let str1 = "Hello"
+  let str2 = "World"
+  let str3 = "!"
+
+  let str = str1.concat(str2, str3)
+
+  console.log(str);
+}
 
 
-// {
-//   let str = "My Cat very cute but my dog is danger but Dog very honest but my cat is not faithfull."
 
-//   let includesMethod = str.includes("My" , 10)
-//   let includesMethod1 = str.includes("My" , -1)
-//   let includesMethod2 = str.includes("My")
+{
+  let str = "I have a name and it is harsh vaghani"
 
-//   console.log(includesMethod);
-//   console.log(includesMethod1);
-//   console.log(includesMethod2);
-// }
+  let includesMethod = str.includes("I", 10)
+  let includesMethod1 = str.includes("I", -1)
+  let includesMethod2 = str.includes("I")
 
-
-// indexOf(searchString)
-// indexOf(searchString, position)
-
-// {
-//    let str = "My Cat very cute but my dog is danger but Dog very honest but my cat is not faithfull."
-//           //  0123456789012
-
-//    let indexOfMethod = str.indexOf("Dog")
-//    let indexOfMethod1 = str.indexOf("T")
-//    let indexOfMethod2 = str.indexOf("M" , 100)
-
-//    console.log(indexOfMethod);
-//    console.log(indexOfMethod1);
-//    console.log(indexOfMethod2);
-// }
+  console.log(includesMethod);
+  console.log(includesMethod1);
+  console.log(includesMethod2);
+}
 
 
-// self Learning Methods
 
-// lastIndexOf()
-// repeat()
-// search()
-// toLowerCase()
-// toString()
-// toUpperCase()
-// trim()
-// trimEnd()
-// trimStart()
-// valueOf()
+{
+  let str = "I have a name and it is harsh vaghani."
+  //  0123456789012
+
+  let indexOfMethod = str.indexOf("and")
+  let indexOfMethod1 = str.indexOf("h")
+  let indexOfMethod2 = str.indexOf("v", 100)
+
+  console.log(indexOfMethod);
+  console.log(indexOfMethod1);
+  console.log(indexOfMethod2);
+}
+
+
